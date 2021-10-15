@@ -1,6 +1,6 @@
 # <div align="center">Energy-Efficient-Distributed-System</div>
 
-Detailed information on the project can be found in EEDS2021SProjectAssignment.pdf
+Detailed information on the project can be found in EEDS2021SProjectAssignment.pdf</br>
 This project was done with Hasan Oguz Kinaci.
 
 ## <div align="center">Background And Motivational Scenario</div>
@@ -73,3 +73,49 @@ for resource-demanding batch analytics (step 6)
 <div>
 <img src="https://raw.githubusercontent.com/andyboat75/Energy-Efficient-Distributed-System/main/images/edge_layer.jpg" width="100%">
 </div>
+
+
+### <div align="left">Assignment</div>
+
+<br>
+
+<div>
+    <p>
+        Analyze and determine the best settings in the edge approach for efficient decision-making
+        processes. The resulting recommended settings should ensure that the edge analytics
+        component (step 4) can select an appropriate forecasting method having both high
+        forecast accuracy and low latency by considering (i) target dataset type, (ii) required
+        prediction horizon and (iii) the most suitable range of historical data as input. We consider
+        the recommendations to be integrated into the knowledge base, in the future edge design.
+        “Which range of data and corresponding prediction horizon can ensure the best trade-off between
+        prediction accuracy and computation latency”, can experimentally be solved by (i) artificially
+        defining different prediction horizons and ranges of training data using complete datasets, (ii)
+        applying different forecasting methods for each of defined prediction horizons and training sets,
+        (iii) observing forecast accuracies and latencies (running time), and (iv) consequently, making
+        recommendations based on conditions and trade-offs that enable efficient decision-making, i.e.,
+        which forecasting method and setting can produce the best accuracy-latency trade-off regarding
+        prediction horizon and given dataset type.
+    </p>
+</div>
+
+<br>
+
+#### <div align="left">Guidelines and details</div>
+<ul>
+    <li>The assignment is based on time-series data.</li>
+    <li>A prediction horizon is the number of data points representing prediction length, that is, the
+amount of data into the future for which the forecasts are to be calculated.</li>
+    <li>During the observation/experimentation phase, we assume that datasets are already
+complete (without missing values) and without outliers, so the forecasts can be evaluated</li>
+    <li>For the sake of simplicity, the latency is considered as a time consumption or running time of
+the forecasting procedure.</li>
+    <li>Edge predictive analytics (step 4) for decision-making are often application dependent.
+However, our recommendations can be related to specific datasets and observations.</li>
+    <li>Edge recommended settings for efficient decision-making must be determined considering:</li>
+    <ol>
+        <li>different patterns of time-series data (different sensor-based datasets);</li>
+        <li>various forecasting methods/models that can be applied;</li>
+        <li>different length of forecast horizons in the experimentation phase;</li>
+        <li>a forecast accuracy measure to evaluate forecasted ranges of data points.</li>
+    </ol>
+</ul>
