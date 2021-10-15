@@ -1,6 +1,7 @@
 # <div align="center">Energy-Efficient-Distributed-System</div>
 
 Detailed information on the project can be found in EEDS2021SProjectAssignment.pdf
+This project was done with Hasan Oguz Kinaci.
 
 ## <div align="center">Background And Motivational Scenario</div>
 
