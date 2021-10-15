@@ -1,5 +1,7 @@
 # <div align="center">Energy-Efficient-Distributed-System</div>
 
+Detailed information on the project can be found in EEDS2021SProjectAssignment.pdf
+
 ## <div align="center">Background And Motivational Scenario</div>
 
 <div>
@@ -64,4 +66,9 @@ The analytics results are used to take operative decisions, e.g., commands sent 
 step (5). The mediator supports the edge layer and communicates with the cloud data repository
 for resource-demanding batch analytics (step 6)
 </p>
+</div>
+</br>
+
+<div>
+<img src="https://raw.githubusercontent.com/andyboat75/Energy-Efficient-Distributed-System/main/images/edge_layer.jpg" width="100%">
 </div>
